@@ -13,6 +13,6 @@ class MainActivity : AppCompatActivity() {
 
         mapView = findViewById(R.id.mapView)
 
-        mapView?.loadMap(AssetsHelper.getContent(this, "sample2.svg"))
+        mapView?.loadMap(AssetsHelper.getContent(this, "sample3.svg"))
     }
 }
